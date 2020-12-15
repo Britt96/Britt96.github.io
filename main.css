@@ -62,7 +62,7 @@ p {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(../images/pexels.jpeg);
+  background-image: url(pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ p {
 }
 
 h2 {
-  background-image: url(../images/pexels.jpeg);
+  background-image: url(pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -351,7 +351,7 @@ footer h2 {
 }
 
 footer {
-  background-image: url(../images/pexels.jpeg);
+  background-image: url(pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
