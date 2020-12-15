@@ -1,0 +1,365 @@
+/*
+  Title: Aboutme.css
+  Author: Brittny Eaddy
+  Date: 12/14/20
+  Purpose: To format personal site.
+*/
+
+/* Smoothly scrolls to bookmarks on page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font Styles */
+body, footer {
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  color: white!important;
+  text-align: left;
+}
+
+.navbar-nav {
+  position: relative;   
+  top: 0;
+}
+/* Link Styles */
+a:link {
+  color: black!important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white!important;
+  border-bottom: 5px solid white;
+  text-decoration: none;
+}
+
+
+#learn a, #learn>a:hover {
+  color: white!important;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+}
+
+/* Heading Styles */
+h2 {
+  display: block;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/* Masthead Styles */
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(../images/pexels.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: 95%;
+}
+
+.btn-primary {
+  background-color: transparent!important;
+  border: 3px solid white!important;
+  font-size: 15px;
+}
+
+.btn-primary:hover {
+  background-color: rebeccapurple;
+}
+
+/* Intro Styles */
+#intro>p {
+  text-align: left;
+}
+
+#intro>p:first-child {
+  margin-top: 15px;
+}
+
+#intro {
+  column-count: 2;
+}
+
+#intro>h1 {
+  color: black;
+  font-size: 24px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+}
+
+#intro {
+  text-align: justify;
+}
+
+.text-center h1, .text-center h3 {
+  color: white;
+  font-weight: normal;
+}
+
+h2 {
+  background-image: url(../images/pexels.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 75px;
+  opacity: 95%;
+  padding: 75px;
+}
+
+/* Fadein Animation */
+.fadein {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    } 
+    100% {
+      opacity: 100%;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    } 
+    100% {
+      opacity: 100%;
+    } 
+}
+
+
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    } 
+    100% {
+      opacity: 100%;
+    } 
+}
+
+
+@-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    } 
+    100% {
+      opacity: 100%;
+    } 
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    } 
+    100% {
+      opacity: 100%;
+    } 
+}
+
+img {
+  max-width: 100%;
+}
+
+.col-md-4 {
+  padding: 0px!important;
+  margin: 50px 25px 50px 150px!important;
+}
+
+caption {
+  display: block!important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-lg-12 p {
+  text-align: left;
+  margin-top: 15px;
+  display: inline;
+}
+
+.progress {
+  display: inline;
+  margin: 0px!important;
+  max-width: 75%;
+  color: green;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+  background-color: rebeccapurple!important;
+  color: white;
+  text-align: right;
+}
+
+#github>a {
+    color: white;
+}
+
+.col-lg-1, .col-lg-11 {
+  padding: 15px;
+}
+
+.col-lg-4 p {
+  text-align: center;
+}
+
+#intro, .skills, footer {
+  padding: 50px;
+}
+
+#intro h1, .skills h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  display: block;
+  margin: auto;
+}
+
+.bar {
+  width: 10%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+caption {
+  display: block;
+  margin: auto;
+}
+
+.progress {
+  width: 75%;
+}
+
+.skills>h2 {
+  display: block;
+  margin: auto;
+}
+
+.skills {
+  padding-top: 0px;
+}
+
+.progress {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#navbarNav a {
+  color: white!important;
+  font-size: 16px;
+  text-align: right!important;  
+}
+
+#intro h1 {
+  padding-top: 15px;
+}
+
+.progress {
+  height: 22px!important;
+}
+
+/*Portfolio Section STyles */
+.col-md-4 {
+  padding: 0px;
+}
+
+.skills {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* Footer Styles */
+footer, footer p {
+  height: 30vh;
+  background-image: url(../images/pexels.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  bottom: 0;
+  opacity: 95%;
+  width: 100%;
+  text-align: left;
+  font-weight: normal;
+  font-size: 14px;
+  padding-top: 0px;
+}
+
+footer .col-lg-12 {
+  margin-top: 25px;
+}
+
+/* Logo Styles */
+.fa-linkedin {
+  margin: 10px;
+  color: white;
+}
+
+.fa-github {
+  margin-left: 0px;
+  color: white;
+}
+
+a:link {
+  color: black;
+}
+
+.fa-linkedin:hover, .fa-github:hover {
+  color: lightgray;
+}
+
+footer a:hover {
+  border: none!important;
+}
+
+#connect {
+  padding-top: 15px; 
+}
+
+/* Contact Form Styles */
+footer h2 {
+  display: block;
+  margin: auto;
+  opacity: 1;
+}
+
+div>form {
+  background-image: url(../images/pexels.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    col-md-4 {
+      float: left;
+    }
+}
