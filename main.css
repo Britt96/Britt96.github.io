@@ -57,7 +57,7 @@ p {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(../images/pexels.jpeg);
+  background-image: url(pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -106,7 +106,7 @@ p {
 }
 
 h2 {
-  background-image: url(../images/pexels.jpeg);
+  background-image: url(pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -297,7 +297,7 @@ caption {
 /* Footer Styles */
 footer, footer p {
   height: 30vh;
-  background-image: url(../images/pexels.jpeg);
+  background-image: url(pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -343,21 +343,7 @@ footer a:hover {
   padding-top: 15px; 
 }
 
-/* Contact Form Styles */
-footer h2 {
-  display: block;
-  margin: auto;
-  opacity: 1;
-}
-
-div>form {
-  background-image: url(../images/pexels.jpeg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
+/* Media Queries */
 @media only screen and (max-width: 600px) {
     .col-md-4 {
       margin-left: 50px!important;
