@@ -331,7 +331,7 @@ a:link {
   color: black;
 }
 
-.fa-linkedin:hover, .fa-github:hover, .fa-envelope {
+.fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover {
   color: lightgray;
 }
 
