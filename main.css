@@ -348,4 +348,8 @@ footer a:hover {
     .col-md-4 {
       margin-left: 50px!important;
     }
+  
+    #navbar {
+      display: none;
+    }
 }
