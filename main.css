@@ -352,4 +352,8 @@ footer a:hover {
     #navbar {
       display: none;
     }
+  
+    #intro {
+      column-count: 1;
+    }
 }
