@@ -352,6 +352,6 @@ footer a:hover {
       display: none;
     }
     #intro {
-      column-count: 1;
+      column-count: 1!important;
     }
 }
