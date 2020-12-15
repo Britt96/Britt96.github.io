@@ -322,7 +322,7 @@ footer .col-lg-12 {
   color: white;
 }
 
-.fa-github {
+.fa-github, .fa-envelope {
   margin-left: 0px;
   color: white;
 }
@@ -331,7 +331,7 @@ a:link {
   color: black;
 }
 
-.fa-linkedin:hover, .fa-github:hover {
+.fa-linkedin:hover, .fa-github:hover, .fa-envelope {
   color: lightgray;
 }
 
