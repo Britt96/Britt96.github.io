@@ -17,14 +17,9 @@ body, footer {
 
 /* Navbar Styles */
 .navbar {
-  color: white!important;
-  text-align: left;
+  background-color:rgba(50,50,50,0.50);
 }
 
-.navbar-nav {
-  position: relative;   
-  top: 0;
-}
 /* Link Styles */
 a:link {
   color: black!important;
@@ -62,7 +57,7 @@ p {
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(pexels.jpeg);
+  background-image: url(../images/pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +106,7 @@ p {
 }
 
 h2 {
-  background-image: url(pexels.jpeg);
+  background-image: url(../images/pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -182,9 +177,14 @@ img {
   max-width: 100%;
 }
 
-.col-md-4 {
+/*.col-md-4 {
   padding: 0px!important;
   margin: 50px 25px 50px 150px!important;
+}*/
+
+.col-md-4 {
+  display: block;
+  margin: auto;
 }
 
 caption {
@@ -267,7 +267,7 @@ caption {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 #navbarNav a {
@@ -286,7 +286,7 @@ caption {
 
 /*Portfolio Section STyles */
 .col-md-4 {
-  padding: 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 .skills {
@@ -350,10 +350,16 @@ footer h2 {
   opacity: 1;
 }
 
-footer {
-  background-image: url(pexels.jpeg);
+div>form {
+  background-image: url(../images/pexels.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-md-4 {
+      margin-left: 50px!important;
+    }
 }
