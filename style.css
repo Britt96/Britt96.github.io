@@ -1,0 +1,22 @@
+/*
+  Assignment: Chapter 4 Die Roll Simulator App
+  Author: Brittny Eaddy
+  Date: 7/28/2020
+  Purpose: This style sheet applies custom style settings to the table and p
+    elements.
+*/
+
+/* Table Formatting */
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 5px;
+}
+
+
+/* P Element Formatting */
+p {
+    text-align: center;
+}
